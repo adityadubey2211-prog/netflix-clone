@@ -70,5 +70,62 @@ main .box{
     border-radius: 10px;
     margin-top: -52px;
 }
+.secondary{
+    margin-top: none;
+    background-color: black;
+    height: 2000px;
+}
+h1.trend{
+    margin: 20px;
+    margin-top:0px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.animal{
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 252px;
+    width: 180px;
+    border: 2px solid transparent;
+}
+.animal:hover{
+    transition-duration: 0.5s;
+    height: 260px;
+    width: 185px;
+    border: 2px solid rgb(22, 28, 43);
+}
+ .showbaner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.moneyheist{
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 252px;
+    width: 180px;
+    border: 2px solid transparent;
+}
+.moneyheist:hover{
+    transition-duration: 0.5s;
+    height: 260px;
+    width: 185px;
+    border: 2px solid rgb(22, 28, 43);
+}
+.p2{
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 252px;
+    width: 180px;
+    border: 2px solid transparent;
+}
+.p2:hover{
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 252px;
+    width: 180px;
+    border: 2px solid transparent;
+}
 
 
