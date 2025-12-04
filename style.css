@@ -1,36 +1,34 @@
-.main{
-     background-image: url("netflix bg.jpg");
-     height: 80vh; 
-     /* background-repeat: no-repeat; */
-     background-size:cover;
+.main {
+    background-image: url("netflix bg.jpg");
+    height: 80vh;
+    background-size: cover;
 }
-main .box{
+
+/* dark overlay */
+main .box {
     height: 80vh;
     width: 100%;
-    opacity:0.44 ;
+    opacity: 0.44;
     background-color: black;
 }
-.main .navbar{
+
+/* navbar */
+.main .navbar {
     margin-top: -700px;
-    margin-left: 0px;
     display: flex;
-    justify-content: center;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 0%;
-    background-color: none;
-    height: 88px;
     width: 1650px;
-    /* margin-left: 280px; */
 }
-.navbar .logoo{
-    background-color: none;
-    opacity: 100%;
-    margin-left: 0px;
+
+.navbar .logoo {
     height: 150px;
     width: 250px;
 }
-.singin{
+
+/* sign in button */
+.singin {
+    position: relative;
     cursor: pointer;
     background-color: red;
     font-size: large;
@@ -42,7 +40,10 @@ main .box{
     height: 40px;
     width: 80px;
 }
-.about{
+
+/* text under navbar */
+.about {
+    position:relative;
     font-size: 2rem;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,82 +51,180 @@ main .box{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;  /* FIX: allows h1 + p to stack */
 }
-.email{
+
+/* email input */
+.email {
+    position: relative;
     background-color: black;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid transparent;
     width: 360px;
     height: 50px;
     margin-left: 650px;
 }
-.get-started{
+.email:hover{
+    transition-duration: 0.5s;
+    border:2px solid rgb(207, 49, 49)
+}
+
+/* get started button */
+.get-started {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:red;
+    background-color: red;
     height: 50px;
     width: 100px;
     margin-left: 1030px;
     border-radius: 10px;
     margin-top: -52px;
 }
-.secondary{
-    margin-top: none;
+.get-started:hover{
+    height: 55px;
+    width: 105px;
+    opacity: 0.5;
+}
+.secondary.sepration{
+    position: relative;
+    width: 100%;
+    height: 50px;            
+    background: transparent;
+    border-top: 3px solid red; 
+    border-radius: 50%;
+}
+/* black background section */
+.secondary {
+    position:relative;
     background-color: black;
     height: 2000px;
 }
-h1.trend{
+
+/* trending heading */
+h1.trend {
     margin: 20px;
-    margin-top:0px;
+    margin-top: 0px;
     color: #ffffff;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.animal{
+
+/* image hover effects */
+.animal, .moneyheist, .p2,.st {
     margin-left: 30px;
     margin-top: 50px;
     height: 252px;
     width: 180px;
     border: 2px solid transparent;
-}
-.animal:hover{
     transition-duration: 0.5s;
+}
+
+.animal:hover,
+.moneyheist:hover {
     height: 260px;
     width: 185px;
     border: 2px solid rgb(22, 28, 43);
+    transition-duration: 0.5s;
 }
- .showbaner{
+
+/* pushpa 2 hover (no change as per your code) */
+.p2:hover {
+    height: 260px;
+    width: 185px;
+    border: 2px solid rgb(22, 28, 43);
+    transition-duration: 0.5s;
+}
+/* banner flex */
+.showbaner {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-} 
-.moneyheist{
-    margin-left: 30px;
-    margin-top: 50px;
-    height: 252px;
-    width: 180px;
-    border: 2px solid transparent;
 }
-.moneyheist:hover{
-    transition-duration: 0.5s;
+.st:hover{
     height: 260px;
     width: 185px;
     border: 2px solid rgb(22, 28, 43);
+    transition-duration: 0.5s;
 }
-.p2{
-    margin-left: 30px;
-    margin-top: 50px;
-    height: 252px;
-    width: 180px;
-    border: 2px solid transparent;
+.cards{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
 }
-.p2:hover{
-    margin-left: 30px;
-    margin-top: 50px;
-    height: 252px;
-    width: 180px;
-    border: 2px solid transparent;
+.reason{
+    margin-left:40px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1390px;
+    position: relative;
+    color: #ffffff;
 }
+.box1,.box2,.box3,.box4{
+    color: #ffffff;
+    position: relative;
+    height:294px;
+    width:300px;
+    background-color: #040b32;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255,0,0,0.7);
+    /* margin-top: -700px; */
+}
+.box1{
+    .head{
+        margin-left: 7px;
+        text-align: left;
+    }
+   .para{
+      line-height: 1px;
+      margin-left: 4px; 
+      font-size: medium;
+      color: gray;
+      text-align: left;
+   } 
+}
+.box1:hover{
+    transition-duration: 0.5s;
+     box-shadow: 0 0 15px rgba(110, 84, 117, 0.7);
+}
+.box2{
+    .para{
+        line-height: 1px;
+      margin-left: 4px; 
+      font-size: medium;
+      color: gray;
+      text-align: left;
 
-
+    }
+}
+.box2:hover{
+     transition-duration: 0.5s;
+     box-shadow: 0 0 15px rgba(110, 84, 117, 0.7);
+}
+.box3{
+    .para{
+      line-height: 1px;
+      margin-left: 4px; 
+      font-size: medium;
+      color: gray;
+      text-align: left;
+    }
+}
+.box3:hover{
+    transition-duration: 0.5s;
+     box-shadow: 0 0 15px rgba(110, 84, 117, 0.7);
+}
+.box4{
+    .para{
+      line-height: 1px;
+      margin-left: 4px; 
+      font-size: medium;
+      color: gray;
+      text-align: left;
+    }
+}
+.box4:hover{
+    transition-duration: 0.5s;
+     box-shadow: 0 0 15px rgba(110, 84, 117, 0.7);
+}
