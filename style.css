@@ -311,3 +311,102 @@ h1.trend {
     transition-duration: 1s;
     border:4px solid rgb(140, 37, 37);
 }
+.faq h1{
+    color:white;
+    margin-left:40px;
+}
+ .faq1{
+    margin-left: 80px;
+    margin-right:80px;
+    height:70px;
+    background-color: gray;
+    width: auto;
+    color:white;
+}
+.faq2{
+    margin-top: 1px;
+    margin-left: 80px;
+    margin-right:80px;
+    height:70px;
+    background-color: gray;
+    width: auto;
+    color:white;
+}
+.faq3{
+    margin-top: 1px;
+    margin-left: 80px;
+    margin-right:80px;
+    height:70px;
+    background-color: gray;
+    width: auto;
+    color:white;
+}
+.faq4{
+    margin-top: 1px;
+    margin-left: 80px;
+    margin-right:80px;
+    height:70px;
+    background-color: gray;
+    width: auto;
+    color:white;
+}
+ .plus1{
+    font-size: 40px;
+     position: relative; 
+        margin-right:0px;
+        margin-left:1410px;
+    } 
+    .plus2{
+        font-size: 40px;
+     position: relative; 
+        margin-right:0px;
+        margin-left:1250px;
+    }
+    .plus3{
+        font-size: 40px;
+     position: relative; 
+        margin-right:0px;
+        margin-left:1360px;
+    }
+   .plus4{
+    font-size: 40px;
+     position: relative; 
+        margin-right:0px;
+        margin-left:1400px;
+   }
+.text{
+    font-weight: 700;
+    margin-top: 4px;
+    font-size:30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    }
+.text2{
+    font-weight: 700;
+    margin-top: 80px;
+    font-size:30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.text3{
+    font-weight: 700;
+    margin-top: 80px;
+    font-size:30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.text4{
+    font-weight: 700;
+    margin-top: 80px;
+    font-size:30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+} 
