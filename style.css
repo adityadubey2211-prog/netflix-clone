@@ -122,8 +122,8 @@ h1.trend {
 .animal, .moneyheist, .p2,.st {
     margin-left: 30px;
     margin-top: 50px;
-    height: 252px;
-    width: 180px;
+    height: 400px;
+    width: 300px;
     border: 2px solid transparent;
     transition-duration: 0.5s;
 }
@@ -174,7 +174,7 @@ h1.trend {
 .box1,.box2,.box3,.box4{
     color: #ffffff;
     position: relative;
-    height:294px;
+    height:400px;
     width:300px;
     background-color: #040b32;
     border-radius: 20px;
@@ -412,11 +412,12 @@ h1.trend {
     align-items: center;
 }
 .abovefoot{
+    margin-top:10px;
     background-color: black;
 }
 .line{
     background-color: black;
-    color: #555252;
+    color: #ffffff;
     font-weight: 300;
     display: flex;
     justify-content: center;
@@ -425,7 +426,7 @@ h1.trend {
 }
 .information{
     background-color: black;
-    margin-top: -15px;
+    margin-top: -8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -451,7 +452,52 @@ h1.trend {
     opacity:0.7;
 }
 .footer{
+    height: 80vh;
+    margin-top: 10px;
     width: 100%;
-    height: 200px;
     background-color:black;
+}
+.ques{
+    color:#ffffff;
+    font-size: larger;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.bottomC{
+    a{
+        color: #ffffff;
+    }
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.next{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        color:#ffffff;
+        text-decoration: underline;
+    }
+}
+.eng{
+    background-color: black;
+   color:white;
+   border:2px solid white;
+   margin-top: 5px;
+   width:11rem;
+   height: fit-content;
+   border-radius: 10px;
+   height: 4vh;
+}
+body{
+    height: 5000px;
+}
+.creation{
+    color: #ffffff;
+    background-color: black;
 }
